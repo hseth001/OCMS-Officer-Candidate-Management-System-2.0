@@ -1,0 +1,6 @@
+Shortcomings of OCMS are:
+
+1. The system is not highly secure.
+2. The system is not scalable. It cannot store too much of data as it has not been hosted.
+3. The performance of the system is not the best.If, a different software stack would be used for exsmple MEAN stack, it would definitely improve the overall performance.
+4. The website has not been hosted. Using AWS the web application must be hosted.

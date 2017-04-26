@@ -1,0 +1,18 @@
+Officer Candidate Management System version 2.0:
+
+1. This system is used as a attendance system for candidates in the training academy.
+2. For accessing this system, the user has to first register into the system with the credentials like name, phone number, email,role,Academic year, rank, password etc.
+3. Once it successfully registers then it will go the home page. On the home page we can see the profile icon and logout button.
+4. For login, there are two roles: Supervisor login with their name and password can login to the system and then can see the 
+   home page. Supervisor will have the home page with profile button where he can upload the profile picture, logout,create events,students enrolled and view attendance button. The supervisor can see 
+   the list of all the students who have marked their attendance, he can create new events, he can see the students enrolled for the events.
+5. For student login, the process is same. Once they are logged in, they can view their profile and upload their picture, can logout, can join the listed events and also can mark the attendance
+   by clicking on mark attendance button. Then a attendance sheet will appear, where they can sign and can give their presence.
+6. These entries will go into the database after the student marks his attendance and join any event. Then a list of all students name with the date and time, ip
+   will appear on the supervisor account under “view attendance page".
+7. These are the major functionalities of the system.
+8. The code has been deployed on AWS, but the functionality of databases is not working properly there. So we have used local host for the
+   proper working of the project.
+9. But the AWS also has the same zip file which is attached in the folder. The deployed application can be found on this URL:
+    ocms.us-east-2.elasticbeanstalk.com 
+10. For AWS, a new account has to be created and with elastic bean we can create the environment and then can deploy the application.
